@@ -53,15 +53,27 @@ header {
   }
   #column-1 {
     background-color: blue;
+    width: 50%;
+    float: left;
+    
   }
   #column-2 {
     background-color: violet;
+    width: 50%;
+    
   }
   #column-3 {
     background-color: pink;
+    width: 100%;
+    
+    
   }
   footer {
     background-color: black;
+    
+  }
+  .col-3 {
+    width: 50%;
   }
 }
  
@@ -73,17 +85,23 @@ header {
   }
   #column-1 {
     background-color: beige;
+    width: 33.3%;
   }
   #column-2 {
     background-color: peachpuff;
+    width: 33.3%;
   }
   #column-3 {
     background-color: lightgreen;
+    width: 33.3%;
+  
   }
   footer {
     background-color: lightseagreen;
   }
- 
+  .col-3 {
+    width: 33.3%;
+  }
 }
 
 /*---------- FOOTER ----------*/
